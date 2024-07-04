@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood</title>
+    <link rel="Stylesheet" href="blood.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="#">GIFTLIFE<span></span></a>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="blood.html">Blood</a></li>
+            <li><a href="Organ.html">Organ</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="login.html">login</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+      </header>
+      <section class="hero-section">
+        <div class="content">
+          <h2>Let someone thank you</h2>
+          <p>
+            Saving one life through blood and organ donation may not change the world, but it can change the world for that one person.
+          </p>
+            <button><li><a href="Aboutus.html">Read More</a></li></button>
+        
+        </div>
+      </section>
+      <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+      </script>
+    <h1> Donate Blood</h1>
+ <div class="container">
+    <div class="b1"><img src="b1.jpeg">
+        <a href="donor.html">Register as a Donor</a>
+    </div>
+
+    <div class="b2"><img src="komal.jpeg" alt="" width="217px" height="232px">
+        <a href="patient.html">Request for blood</a></div>
+
+     <div class="b3"><img src="b3.jpeg" alt="" width="217px" height="232px">
+        <a href="patientpage.html">Register as a donor</a>
+    </div>
+ </div>
+ <h1>Blood Group</h1>
+ <img src="dhanu.jpeg" alt="Paris" class="center">
+
+</body>
+</html>

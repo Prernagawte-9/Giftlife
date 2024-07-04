@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="about us .css">
+</head>
+<body> 
+    <header>
+    <nav class="navbar">
+      <a class="logo" href="#">GIFTLIFE<span></span></a>
+      <ul class="menu-links">
+        <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="blood.html">Blood</a></li>
+        <li><a href="Organ.html">Organ</a></li>
+        <li><a href="Aboutus.html">About us</a></li>
+        <li><a href="contact us.html">Contact us</a></li>
+        <li><a href="login.html">login</a></li>
+      </ul>
+      <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+    </nav>
+  </header>
+  <section class="hero-section">
+    <div class="content">
+      <h2>Let someone thank you</h2>
+      <p>
+        Saving one life through blood and organ donation may not change the world, but it can change the world for that one person.
+      </p>
+        <button><li><a href="Aboutus.html">Read More</a></li></button>
+    
+    </div>
+  </section>
+  <script>
+    const header = document.querySelector("header");
+    const hamburgerBtn = document.querySelector("#hamburger-btn");
+    const closeMenuBtn = document.querySelector("#close-menu-btn");
+    // Toggle mobile menu on hamburger button click
+    hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+    // Close mobile menu on close button click
+    closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+  </script>
+  <!--                                   homepage                                        --> 
+  <section>            
+    <div class="container">
+        <div class="description-container">
+            <h1 style="text-align:center; font-size: 55px;">About Us<br><br></h1>
+            <h1 style="font-size:45px;text-align: left;">Every Donor Is A Lifesaver<br><br></h1>
+            <img src="Boold-donation-2023-1.jpeg"alt=""class="img-responsive floating-image right">
+            
+                <p><h3 style="font-size: 25px;">Mission<br></h3>
+                    To contribute towards the problem of shortage of blood in India by raising awareness and improving donor experience and thereby, become a 360-degree solution provider.<br><br>
+                    <h3 style="font-size: 25px;"> Vision<br></h3>
+                    Reach Blood Sufficient India through Voluntary Blood Donations.</p><br><br>
+
+             <img src="pratik.jpeg"alt=""class="img-responsive floating-image left">   
+             <h2 style="font-size: 25px;">What are Blood Donation Camps</h2> 
+             <p>Rather than going to the hospital to donate blood, we bring the hospital to you. We partner with government recognized blood banks who bring their expert doctors and staff to conduct a clean blood donation camp without any hassles. The camp can be organized in a common area or in a blood donation bus which we can bring. We make all the other arrangements, you just have to provide a ventilated clean area.Now saving lives does not need any travel even, just 20minutes at the camp!</p><br><br>
+        </div>
+    </div>
+
+
+    <div class="description-container">
+        <img src="or2.jpeg"alt=""class="img-responsive floating-image right">
+        
+            <p><h2 style="font-size: 25px;">A Organ Donar</h2>Donation is the giving of an organ and tissue to help someone that needs a transplant. A transplant can save or transform the life of a person. One organ donor can save up to 7 lives and help many more through eye and tissue donation.
+                Did you know that people who donate blood are 88% less likely to suffer a heart attack and 33% less likely to acquire any type of cardiovascular disease. # When you donate blood, it removes 225 to 250 milligrams of iron from your body, hence reducing the risk of heart disease.</p><br><br><br>
+         
+        <img src="prerna.jpeg"alt=""class="img-responsive floating-image left">   
+            <p><h1 style="font-size: 25px;">Awareness</h1>Did you know that people who donate blood are 88% less likely to suffer a heart attack and 33% less likely to acquire any type of cardiovascular disease. # When you donate blood, it removes 225 to 250 milligrams of iron from your body, hence reducing the risk of heart disease.</p><br><br>
+    </div>
+</div>
+</section>
+<section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Donate Blood</a></li>
+            <li><a href="#">Donate Organ</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Blood and Organ Donation Website. All rights reserved.</p>
+    </div>
+
+  </footer>
+  
+  
+</section>
+</body>
+</html>

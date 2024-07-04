@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="Stylesheet" href="Organ.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="#">GIFTLIFE<span></span></a>
+          <ul class="menu-links">
+            <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="blood.html">Blood</a></li>
+            <li><a href="Organ.html">Organ</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+            <li><a href="login.html">login</a></li>
+          </ul>
+          <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+      </header>
+      <section class="hero-section">
+        <div class="content">
+          <h2>Let someone thank you</h2>
+          <p2>
+            Saving one life through blood and organ donation may not change the world, but it can change the world for that one person.
+          </p2>
+            <button><li><a href="Aboutus.html">Read More</a></li></button>
+        
+        </div>
+      </section>
+      <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+      </script>
+    <!--                          homepage                                     -->
+    <h1>Organ</h1>
+    <div class="boxx">
+        
+        <div class="O1"><img src="o1.jpeg">
+            <a href="Organ donorpage.html"><br><br>Register as a Donor</a>
+        </div>
+        
+        <div class="O2"><img src="o2.jpeg">
+            <a href="Organ patientpage .html"><br><br>Request for organ</a></div>
+
+
+        <div class="o3"><img src="Unknown.jpeg" width="300" height="168">
+            <a href="patientpage.html"><br><br>Register donor</a></div>
+        </div>
+        <section>
+          <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4>About Us</h4>
+                  <p>Reach Blood Sufficient India through Voluntary Blood Donations.</p>
+                </div>
+                <div class="col-md-4">
+                  <h4>Quick Links</h4>
+                  <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="blood.html">Donate Blood</a></li>
+                    <li><a href="organ patient.html">Donate Organ</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h4>Contact Us</h4>
+                  <p>Drop us a message</p>
+                  <p><a href="homepage.html">@GIFTLIFE.com</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>&copy; 2024 Blood and Organ Donation Website. All rights reserved.</p>
+            </div>
+          </footer>
+          
+        </section>
+    
+</body>
+</html>
